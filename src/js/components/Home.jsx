@@ -1,5 +1,5 @@
 import React from "react";
-
+import navbar from "./navbar";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -8,8 +8,9 @@ const Home = () => {
 	return (
 		<div className="text-center">
             
-
+           
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
+			<navbar/>
 			<p>
 				<img src={rigoImage} />
 			</p>
